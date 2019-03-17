@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Footer  =  ( ) => (
-  <footer className="px-5 py-5 d-flex flex-row align-items-center bg-gradients">
-    <p className="text-white m-0"> A product of  Witbex Inc., Delaware, USA</p>
-    <ul className="nav ml-auto">
+  <footer className="px-md-5 px-3 py-5 d-flex flex-row flex-wrap align-items-center bg-gradients">
+    <p className="text-white my-2"> A product of  Witbex Inc., Delaware, USA</p>
+    <ul className="nav ml-sm-auto my-2">
       <li className="nav-item">
         <a className="nav-link" href="/#">
           <i className="fab fa-facebook-f" aria-hidden="true"></i>

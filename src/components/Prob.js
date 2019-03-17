@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Prob = ({img}) => (
-  <section className="bg-map">
+  <section className="bg-map position-relative">
     <div className="row">
-      <div className="col-sm-6 mb-5">
+      <div className="col-lg-6 col-md-8 mb-5">
         <div className="rec-card p-3">
           <h2 className="pro ms ml-5">The Problem with Logistics</h2>
           <div className="mb-5 mt-4 ml-5 mr-5 de">
@@ -18,7 +18,7 @@ const Prob = ({img}) => (
       </div>
     </div>
     <div className="row mt-5">
-      <div className="ml-auto col-sm-6 mt-5" style={{zIndex: 999}}>
+      <div className="ml-auto col-lg-6 col-md-8 mt-5" style={{zIndex: 999}}>
         <div className="rec-card p-3 text-right">
           <h2 className="pro ms mr-5 text-right">The New Economy</h2>
           <div className="mb-5 mt-4 ml-5 mr-5 de text-right">
@@ -29,18 +29,18 @@ const Prob = ({img}) => (
         </div>
       </div>
     </div>
-    <div className="row align-items-center il">
-      <div className="col-sm-3 pr-5">
+    <div className="row align-items-center justify-content-center flex-lg-row flex-column-reverse  il">
+      <div className="col-lg-3 pr-5 nb">
         <img src={img.playBtn} alt="playBtn" className="Play_btn img-fluid float-right mr-5" />
       </div>
-      <div className="col-sm-3">
-        <p className="send">
+      <div className="col-lg-3">
+        <p className="send p-lg-0 p-5 ">
           Sending parcels from point A to point B is 
           done by centralized logistics providers like DHL, 
           UPS or even government run services like USPS. 
         </p>
       </div>
-      <div className="col-sm-6">
+      <div className="col-lg-6">
         <img src={img.Illstr} srcSet={`${img.illstr2x} ${img.illstr3x}`} alt="illstration" className="img-fluid" />
       </div>
     </div>

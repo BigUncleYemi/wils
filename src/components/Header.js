@@ -45,15 +45,15 @@ const Header = ({img}) => (
         </ul>
       </div>
     </nav>
-    <div style={{marginTop: '230px', marginBottom: '200px'}}>
+    <div className="head-text">
       <h1 className="position-relative">
         <span className="evolve">EVOLVING THE WAY WE</span><br/>
         <span className="text-capitalize position-absolute ho">home</span><br/>
         <span className="te">Travel & Explore</span>
       </h1>
       <div className="user pl-4">
-        <button type="button" className="btn btn-lg m-5 py-3 px-3 logi">Login</button>
-        <button type="button" className="btn btn-lg m-5 py-3 px-3 sign">Sign Up</button>
+        <button type="button" className="btn btn-lg m-lg-5 m-3 py-3 px-3 logi">Login</button>
+        <button type="button" className="btn btn-lg m-lg-5 m-3 py-3 px-3 sign">Sign Up</button>
       </div>
     </div>
   </header>

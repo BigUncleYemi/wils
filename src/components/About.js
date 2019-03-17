@@ -2,8 +2,8 @@ import React from 'react'
 
 const About = ({img}) => (
   <section className=" bg-svg">
-    <div className="d-flex container flex-row" style={{paddingBottom: '150px'}}>
-      <div className="feature mx-4">
+    <div className="d-flex container flex-wrap flex-row justify-content-center align-items-center" style={{paddingBottom: '150px'}}>
+      <div className="feature mx-4 my-lg-0 my-5">
         <div className="cir"></div>
         <div className="mt-5">
           <p className="feature-text">
@@ -14,7 +14,7 @@ const About = ({img}) => (
           <button className="btn text-capitalize my-5 re">read more</button>
         </div>
       </div>
-      <div className="feature mx-4">
+      <div className="feature mx-4 my-lg-0 my-5">
         <div className="cir"></div>
         <div className="mt-5">
           <p className="feature-text">
@@ -25,7 +25,7 @@ const About = ({img}) => (
           <button className="btn text-capitalize my-5 re">read more</button>
         </div>
       </div>
-      <div className="feature mx-4">
+      <div className="feature mx-4 my-lg-0 my-5">
         <div className="cir"></div>
         <div className="mt-5">
           <p className="feature-text">
@@ -50,7 +50,7 @@ const About = ({img}) => (
             UPS or even government run services like USPS. 
           </p>
         </div>
-        <div className="d-flex flex-row align-items-center my-0 justify-content-center">
+        <div className="d-flex flex-row align-items-center flex-wrap my-0 justify-content-center">
           {
             [
               {src: img.amazon, srcSet: `${img.amazon2x} ${img.amazon3x}`, name: 'amazon'},
@@ -58,7 +58,7 @@ const About = ({img}) => (
               {src: img.okreeka, srcSet: `${img.okreeka2x} ${img.okreeka3x}`, name: 'okreeka'},
               {src: img.zalando, srcSet: `${img.zalando2x} ${img.zalando3x}`, name: 'zalando'},
               {src: img.Hm, srcSet: `${img.Hm2x} ${img.Hm3x}`, name: 'Hm'},
-            ].map((item, index) => <img src={item.src} srcSet={item.srcSet} alt={item.name} className="img-fluid px-4"/>)
+            ].map((item, index) => <img src={item.src} srcSet={item.srcSet} alt={item.name} className="img-fluid py-3 px-4"/>)
           }
         </div>
       </div>

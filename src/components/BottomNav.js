@@ -3,7 +3,7 @@ import React from 'react'
 const BNav = ({img}) => (
   <section className="container my-5">
     <div className="row">
-      <div className="col-sm-3">
+      <div className="col-sm-12 col-md-6 col-lg-3">
         <nav className="nav flex-column">
           <h3 className="alpha">About</h3>
           <a className="nav-link" href="/#">Company</a>
@@ -12,7 +12,7 @@ const BNav = ({img}) => (
           <a className="nav-link" href="/#">Privacy policy</a>
         </nav>
       </div>
-      <div className="col-sm-3">
+      <div className="col-sm-12 col-md-6 col-lg-3">
         <nav className="nav flex-column">
           <h3 className="alpha">Business</h3>
           <a className="nav-link" href="/#">Brand</a>
@@ -22,7 +22,7 @@ const BNav = ({img}) => (
           <a className="nav-link" href="/#">Careers</a>
         </nav>
       </div>
-      <div className="col-sm-3">
+      <div className="col-sm-12 col-md-6 col-lg-3">
         <nav className="nav flex-column">
           <h3 className="alpha">Developers</h3>
           <a className="nav-link" href="/#">Documentation</a>
@@ -31,7 +31,7 @@ const BNav = ({img}) => (
           <a className="nav-link" href="/#">Developer blog</a>
         </nav>
       </div>
-      <div className="col-sm-3">
+      <div className="col-sm-12 col-md-6 col-lg-3">
         <nav className="nav flex-column">
           <h3 className="alpha">Help Center</h3>
           <a className="nav-link" href="/#">How to use <span className="use"><img src={img.Logo} alt="logo" height="20" width="20" />arrier</span></a>

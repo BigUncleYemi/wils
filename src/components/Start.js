@@ -2,7 +2,7 @@ import React  from 'react'
 
 const Start = ({img}) => (
   <section className="bg-gradients">
-    <div className="row">
+    <div className="row start-con">
       <div className="col-sm-12 my-5 text-center">
         <h3 className="my-5 d-flex flex-row align-items-center justify-content-center">
           <span className="who text-white">Start using </span>
@@ -17,8 +17,8 @@ const Start = ({img}) => (
         </div>
         <div className="d-flex flex-row align-items-center my-0 justify-content-center">
           <div className="start">
-            <button type="button" className="btn btn-lg m-5 py-3 px-3 logi reverse float-left">Login</button>
-            <button type="button" className="btn btn-lg m-5 py-3 px-3 sign reverse float-right">Sign Up</button>
+            <button type="button" className="btn btn-lg m-lg-5 m-3 py-3 px-3 logi reverse float-left">Login</button>
+            <button type="button" className="btn btn-lg m-lg-5 m-3 py-3 px-3 sign reverse float-right">Sign Up</button>
           </div>
         </div>
       </div>

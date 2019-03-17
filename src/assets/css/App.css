@@ -272,11 +272,16 @@ img[alt="illstration"]{
   content: " ";
   background-image: url('../img/eclipse_BG.png');
   position: absolute;
-  width: 100%;
-  height: 85%;
+  width: 70%;
+  height: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  margin: auto;
+  top: -700px;
+  left: 200px;
+  right: 0;
+  bottom: 0;
 }
 
 .use{
@@ -284,4 +289,85 @@ img[alt="illstration"]{
   font-size: 18px;
   font-weight: 300;
   color: #481d62 !important;
+}
+
+.head-text{
+  margin-top: 230px;
+  margin-bottom: 200px;
+}
+
+@media (max-width: 800px){
+  .evolve{
+    font-size: 27px;
+  }
+  .ho{
+    left: 71%;
+    top: 50px;
+  }
+  .te{
+    font-size: 80px;
+  }
+  .nb{
+    display: contents;
+  }  
+  .de>p{
+    font-size: 16px;
+  }
+  .bg-track{
+    background-size: cover;
+  }
+  .bg-map::before{
+    top: -900px;
+    left: 0;
+  }
+  .send{
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 400px){
+  .start{
+    display: contents;
+  }
+  .start-con{
+    transform: scale(0.9);
+  }
+  .who{
+    font-size: 30px;
+  }
+  .who+.carrier{
+    transform: scale(0.9);
+  }
+  .nb{
+    display: contents;
+  }  
+  .bg-map::before {
+    top: -600px;
+    left: 0;
+    width: 100%;
+  }
+  .de>p {
+    font-size: 14px;
+  }
+  .m-header {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .evolve{
+    font-size: 10px;
+  }
+  .ho{
+    left: 71%;
+    top: 50px;
+    font-size: 27px;
+  }
+  .te{
+    font-size: 40px;
+  }
+  .head-text{
+    margin-top: 70px;
+  }
+  .user{
+    transform: scale(0.85);
+  }
 }
