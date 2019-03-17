@@ -4,15 +4,27 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.7",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BigUncleYemi/wils.git"
+  },
+  "author": "Big Uncle Yemi",
+  "bugs": {
+    "url": "https://github.com/BigUncleYemi/wils/issues"
+  },
+  "homepage": "https://BigUncleYemi.github.io/wils",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
