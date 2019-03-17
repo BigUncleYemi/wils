@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136 136">
+    <defs>
+        <style>
+            .cls-1{fill:#6e20ad;stroke:#707070}.cls-2{fill:#fff}.cls-3{stroke:none}.cls-4{fill:none}
+        </style>
+    </defs>
+    <g id="Play_btn" transform="translate(-163 -2992)">
+        <g id="play_button" class="cls-1" transform="translate(163 2992)">
+            <circle cx="68" cy="68" r="68" class="cls-3"/>
+            <circle cx="68" cy="68" r="67.5" class="cls-4"/>
+        </g>
+        <path id="Op_component_1" d="M246.418 514.1l23.02-38.705a4.982 4.982 0 0 1 6.956 0l23.02 38.705a4.768 4.768 0 0 1 0 6.83h-53a4.768 4.768 0 0 1 .004-6.83z" class="cls-2" data-name="Op component 1" transform="rotate(88 -1074.257 1760.977)"/>
+    </g>
+</svg>
