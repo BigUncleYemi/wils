@@ -273,13 +273,13 @@ img[alt="illstration"]{
   content: " ";
   background-image: url('../img/eclipse_BG.png');
   position: absolute;
-  width: 70%;
-  height: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-size: contain;
+  width: 70%;
+  height: 50%;
   margin: auto;
-  top: -420px;
+  top: -730px;
   left: 200px;
   right: 0;
   bottom: 0;
