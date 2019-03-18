@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/wils/static/media/amazon_PNG7@2x.d4c75ef5.png"
   },
   {
-    "revision": "a914150f5f091d5eb621",
-    "url": "/wils/static/css/main.2c32ef78.chunk.css"
+    "revision": "fa56ad2ac4847021559d",
+    "url": "/wils/static/css/main.bb61d8c3.chunk.css"
   },
   {
     "revision": "83f13d67c3ca26c97e3b",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/wils/static/media/amazon_PNG7.c7c9a1ab.png"
   },
   {
-    "revision": "a914150f5f091d5eb621",
+    "revision": "fa56ad2ac4847021559d",
     "url": "/wils/static/js/main.2805fd9b.chunk.js"
   },
   {
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/wils/static/css/2.e471eeff.chunk.css"
   },
   {
-    "revision": "70426056d71ae0d83a75ca9597ffd35f",
+    "revision": "0e3b5dcf749e0282da55959203cb5697",
     "url": "/wils/index.html"
   }
 ];
